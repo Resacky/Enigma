@@ -203,6 +203,5 @@ public class Main {
 // update goals:
 // - update main to where message is turned from ASCII to keysPOS so plug-board only has to worry about position within
 //   keys array rather than converting ASCII to keysPOS
-// - potentially expand keys array for more characters input for encryption?
-// - make the program hold onto the configuration unless user requests reset & have the user encrypt more than one message within a session
+// - potentially expand keys array for more characters input for encryption?x
 // - GUI interface for this program.
