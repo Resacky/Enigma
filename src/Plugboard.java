@@ -24,7 +24,10 @@ public class Plugboard {
             userInput = SwapInput.nextLine().toUpperCase();
 
             if (userInput.length() > 2) {
-                System.err.println("Error found, please only provide TWO characters");
+                System.err.println("Error found, please only provide a maximum of TWO characters");
+                continue;
+            } else if (userInput.length() < 2) {
+                System.err.println("Error found, please provide a minimum of TWO characters");
                 continue;
             }
 
@@ -93,6 +96,6 @@ public class Plugboard {
         for (int i = 0; i < Keyboard.keys.length; i++) {
             System.out.print((char) (plugboard[i] + 65) + " ");
         }
-        System.out.println();
+        System.out.println("\n");
     }
 }
