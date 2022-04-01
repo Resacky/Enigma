@@ -14,6 +14,7 @@ public class Main {
         // Plugboard config:
         Plugboard.plugconfig("Setting up Plug-Board configuration:");
         Plugboard.printPlug();
+        System.out.println("This is a test!!!");
 
         // Rotors config:
         System.out.println("Pre-config Rotors:");
