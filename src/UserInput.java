@@ -10,7 +10,7 @@ public class UserInput {
 		message_to_encrypt = input.nextLine();
 
 		System.out.println(message_to_encrypt);
-		input.close();
+		//input.close();
 		return message_to_encrypt.toUpperCase();
 	}
 }
